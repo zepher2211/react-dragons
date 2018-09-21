@@ -1,0 +1,25 @@
+{
+    "dragons": [
+      {
+        "id": 1,
+        "name": "Toothless",
+        "description": "A Night Fury",
+        "image":"https://orig00.deviantart.net/4f31/f/2010/096/a/2/a2c3dd0f2927d88403e74ecfa0259fbe.jpg",
+        "onMyTeam":false
+      },
+      {
+        "id": 2,
+        "name": "Smaug",
+        "description": "He is Fire, He is Death",
+        "image":"http://media.comicbook.com/uploads1/2015/08/cumbersmaug-147620.jpg",
+        "onMyTeam":false
+      },
+      {
+        "id": 3,
+        "name": "Bozar",
+        "description": "An uninteresting dragon",
+        "image":"https://static.boredpanda.com/blog/wp-content/uploads/2015/05/What-are-dragons-doing-nowadays-fb3.jpg",
+        "onMyTeam":false
+      }
+    ]
+  }
