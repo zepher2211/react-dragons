@@ -11,8 +11,8 @@ This will start an api available at `http://localhost:3001/dragons`, and an app 
 ## Deliverables
 1. Get The Dragons from our API
 2. Render the dragon names and images inside of the `<Home />` Component (You may want to set a width of the images to keep things tidy)
-3. When a user clicks a dragon, it should move the dragon to the `<War />` Component
-4. If a user clicks a dragon at war, it should move back to the `<Home />` Component
+3. When a user clicks a dragon, it should move the dragon inside the `<War />` Component
+4. If a user clicks a dragon at war, it should move back inside the `<Home />` Component
 
 ## BONUS
 1. Persist the data so that, if you refresh the page, the dragons are in the same position (at home or at war depending on where they were when you refreshed). (HINT: use `fetch` again)
