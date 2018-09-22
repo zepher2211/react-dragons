@@ -10,7 +10,7 @@ This will start an api available at `http://localhost:3001/dragons`, and an app 
 
 ## Deliverables
 1. Get The Dragons from our API
-2. Render the dragon images inside of the `<Home />` Component
+2. Render the dragon names and images inside of the `<Home />` Component (You may want to set a width of the images to keep things tidy)
 3. When a user clicks a dragon, it should move the dragon to the `<War />` Component
 4. If a user clicks a dragon at war, it should move back to the `<Home />` Component
 
