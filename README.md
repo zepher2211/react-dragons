@@ -15,4 +15,5 @@ This will start an api available at `http://localhost:3001/dragons`, and an app 
 4. If a user clicks a dragon at war, it should move back inside the `<Home />` Component
 
 ## BONUS
-1. Persist the data so that, if you refresh the page, the dragons are in the same position (at home or at war depending on where they were when you refreshed). (HINT: use `fetch` again)
+1. Add a search box to the Home div which will filter the dragons based on their name
+2. Persist the data so that, if you refresh the page, the dragons are in the same position (at home or at war depending on where they were when you refreshed). (HINT: use `fetch` again)
