@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import War from './War'
 import Home from './Home'
+import DragonCard from './dragonCard'
 
 class App extends Component {
 
@@ -21,8 +22,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Home />
-        <War />
+        <Home dragons={this.state.dragons} />
+        <War dragons={this.state.dragons} />
       </div>
     );
   }
