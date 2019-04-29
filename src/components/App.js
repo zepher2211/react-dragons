@@ -4,6 +4,20 @@ import Home from './Home'
 
 class App extends Component {
 
+  state = {
+    dragons: []
+  }
+
+  fetchDragons = () => {
+    fetch(`http://localhost:3001/dragons`)
+      .then( res => res.json() )
+      .then( dragons => this.setState({dragons: dragons}))
+  }
+
+  componentDidMount(){
+    this.fetchDragons()
+  }
+
   render() {
     return (
       <div>
